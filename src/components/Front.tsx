@@ -23,7 +23,7 @@ const Front = () => {
             } else {
                 setSunRise(false);
             }
-            if (scrollPer >= 0.98) {
+            if (scrollPer >= 0.9) {
                 setContentVisible(true);
             } else {
                 setContentVisible(false);
