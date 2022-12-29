@@ -29,7 +29,9 @@
         display: flex;
         align-items: center;
         padding: 10%;
-        height: fit-content;
+        height: auto;
+        min-height: 100vh;
+
         .contents {
             margin: 50px auto;
 
