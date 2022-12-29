@@ -1,8 +1,7 @@
 .base {
     width: 100%;
+    height: auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     text-align: center;
 
     .first {
@@ -30,11 +29,9 @@
         display: flex;
         align-items: center;
         padding: 10%;
-        height: max-content;
-        min-height: 250vh;
+        height: fit-content;
         .contents {
-            margin: auto;
-            height: 90vh;
+            margin: 50px auto;
 
             h1 {
                 color: rgb(150, 40, 40);
@@ -90,7 +87,6 @@
             opacity: 0.7;
         }
     }
-
     .ending {
         min-height: 100vh;
         display: flex;
